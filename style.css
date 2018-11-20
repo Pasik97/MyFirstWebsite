@@ -1,0 +1,445 @@
+html{
+  font-size: 62.5%
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  'Noto Serif','Open Sans','Roboto', sans-serif;
+  background-color: #2C3539;
+  color: #FFFFFF;
+
+}
+
+.page{
+  width: 100%;
+  margin: 0 auto ;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-header{
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Lora',sans-serif;
+  margin-top: 30px;
+}
+
+#clock{
+  color:#B6B6B4;
+  font-size: 5.5rem;
+}
+
+.homepage:hover,
+.homepage:active,
+.homepage:link,
+.homepage:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.main{
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  background-color:#848482;
+  text-align: left;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 20px;
+  font-size: 4rem;
+}
+
+.edu{
+  margin-left: 60px;
+  font-size: 2.5rem;
+  transition: all .07s ease;
+}
+
+.edu p{
+  padding-left: 30px;
+  display: inline;
+}
+
+.abo{
+  margin-left: 60px;
+  font-size: 2.65rem;
+  transition: all .07s ease;
+}
+
+.skl{
+  margin-left: 60px;
+  font-size: 2.65rem;
+  transition: all .07s ease;
+}
+
+.article-nav{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fb,
+.yt,
+.tw,
+.gm{
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: calc(25% - 25px);
+  height: auto;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  transition: all .07s ease;
+}
+
+.fb{
+  background-color: #1569C7;
+  font-size: 11rem;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+}
+
+.fb:visited{
+  color: #ffffff;
+}
+
+.fb:hover,
+.fb:active{
+  background-color: #0458B6;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.yt{
+  background-color: #C11B17;
+  font-size: 11rem;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+.yt:hover,
+.yt:active{
+  background-color: #B00A06;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.yt:visited{
+  color: #ffffff;
+}
+
+.tw{
+  background-color: #659EC7;
+  font-size: 11rem;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+.tw:hover,
+.tw:active{
+  background-color: #548DB6;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.tw:visited{
+  color: #ffffff;
+}
+
+.gm{
+  text-align: left;
+  background-color: #E42217;
+  font-size: 11rem;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.gm:hover,
+.gm:active{
+  background-color: #D31106;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.gm:visited{
+  color: #ffffff;
+}
+
+.aside-nav{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.aside-nav p{
+  font-size: 4rem;
+}
+
+.about,
+.education,
+.experience,
+.skills{
+  margin-bottom: 30px;
+  margin-left: 20px;
+  height: auto;
+  width: calc(50% - 30px);
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all .07s ease;
+}
+
+.about,
+.education{
+  background-color: #6CBB3C;
+  font-size: 10rem;
+}
+
+.about:hover,
+.about:active,
+.education:hover,
+.educarion:active{
+  background-color: #5BAA2B;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.experience,
+.skills{
+  font-size: 10rem;
+}
+
+.experience{
+  background-color: #348781;
+}
+
+.experience:hover,
+.experience:active{
+  background-color: #237670;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.skills{
+  background-color: #C9BE62;
+}
+
+.skills:hover,
+.skills:active{
+  background-color: #B8CD51;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.sth{
+  background-color: #FFA62F;
+  width: calc(100% - 40px);
+  margin-bottom: 30px;
+  margin-left: 20px;
+  height: auto;
+  text-align: left;
+  padding: 50px;
+}
+
+.footer{
+  width: calc(100% - 10px);
+  margin: 5px;
+  height: 80px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.footer img{
+  margin-bottom: 10px;
+  border-radius: 50%;
+  image-resolution: snap;
+}
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 900px) {
+
+  .page-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .page-header a{
+    width: 50%
+    display: flex;
+    font-size: 3.5rem;
+  }
+
+  #clock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+  }
+
+  .article{
+    justify-content: flex-start;
+  }
+
+  .content{
+    width: calc(80% - 30px);
+  }
+
+  .content p{
+    width: 100%;
+  }
+
+  .article-nav{
+    width: calc(20% - 30px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fb,
+  .yt,
+  .tw,
+  .gm{
+    width: 100%;
+    height: 25%;
+    font-size: 6rem;
+    margin-left: 0;
+    margin-bottom: 15px;
+    padding: 20px 0px 20px 40px;
+  }
+
+  .gm{
+    padding-left: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 901px){
+  .page{
+    width: 900px;
+    margin: auto;
+  }
+
+  .page-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+  }
+
+  .page-header a{
+    width: 50%
+    display: flex;
+    font-size: 3.5rem;
+  }
+
+  #clock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+  }
+
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+
+  .article{
+    width: 50%;
+    order: 2;
+  }
+
+  .article-nav{
+    height: 33.3%;
+    justify-content: space-between;
+  }
+
+  .aside{
+    width: 50%;
+    order: 1;
+    font-size: 2rem;
+  }
+
+  .aside-nav {
+    height: 66.6%;
+  }
+  .aside-nav p{
+    font-size: 2.75rem;
+  }
+
+  .about,
+  .education,
+  .experience,
+  .skills{
+    padding-top: 10px;
+    font-size: 5rem;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  .sth{
+    height: 33.3%;
+    font-size: 3rem;
+    padding: 35px 30px 20px 30px;
+  }
+
+  .content{
+    height: calc(66.6% - 25px);
+    padding: 10px 20px 0px 30px;
+    margin: 0px 0px 20px 0px;
+    font-size: 1.8rem;
+  }
+
+  .content ul{
+    font-size: 1.8rem;
+  }
+
+  .fb,
+  .yt,
+  .tw,
+  .gm{
+    width: calc(25% - 10px);
+    font-size: 6rem;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 30px 0px 0px 10px;
+  }
+
+  .footer{
+    font-size: 1.2rem;
+  }
+
+  .gm{
+    margin-right: 0;
+    padding-left: 5px;
+  }
+
+}
